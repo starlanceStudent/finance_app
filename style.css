@@ -36,8 +36,16 @@ form input {
 	font-weight: 700;
 }
 
+#detail_money_flow {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: rose;
+	font-size: 25px;
+}
+
 #panel {
-	margin: 300px 0 0 0;
+	margin: 270px 0 0 0;
 	overflow: hidden;
 }
 
@@ -60,3 +68,49 @@ form input {
 	background: red;
 	color: white;
 }
+
+/* add money */
+
+#select {
+	border: 1px solid #424242;
+	padding: 10px 0;
+	width: 100%;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+
+/* money flow */
+
+#money_flow_block {
+	padding: 0;
+}
+
+#money_flow_block li:first-child {
+	border-top: 1px solid #eee;
+}
+
+#money_flow_block li {
+	font-size: 20px;
+	list-style: none;
+	border-bottom: 1px solid #eee;
+	padding: 20px;
+}
+
+#money_flow_block li:hover {
+	background: #000;
+	color: white;
+}
+
+.add_money_list {
+	background: green;
+}
+
+.remove_money_list{
+	background: red;
+}
+
+#money_flow_block span {
+	float: right;
+}
+
